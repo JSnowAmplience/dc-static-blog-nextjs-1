@@ -1,6 +1,6 @@
 [build]
   publish = "out"
-  command = "npm install next@latest && npm run export"
+  command = "npm ci && npm run export"
 
 [[redirects]]
   from = "https://productblog.amplience.com/index.html"
